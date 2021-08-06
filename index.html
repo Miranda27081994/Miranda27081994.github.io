@@ -1,33 +1,306 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Miranda Leijen</title>
 
-    <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    <!-- Your own stylesheet -->
-    <link rel="stylesheet" type="text/css" href="style.css">
-  </head>
-  <body>
-    <div class="container d-flex align-items-center h-100">
-      <div class="row">
-      <header class="text-center col-12">
-        <h1 class= "text-uppercase"><strong>The biggest startup event of the year</strong></h1>
-      </header>
-      <div class="buffer col-12"></div>
-      <section class="text-center col-12">
-        <hr>
-        <a href="https://mailchi.mp/9cf79e469783/ztmstudents"> 
-          <button class="btn btn-primary btn-xl">Find out more</button>
-        </a>
-      </section>
-    </div>  
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!--Op Icons-->
+     
+    <link href="https://cdn.jsdelivr.net/gh/codeOpacity/op_icons@main/op_icons.all.min.css" rel="stylesheet">
+                    
+    <!--Main Styling-->
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="background-color-layer" style="background-image: url('./asset/Amsterdam_I.jpg')"></div>
+    <div class="container">
+        <div class="main grid">
+            <aside class="sidebar">
+                <div class="profile">
+                    <div class="profile_img">
+                        <img src="./asset/IMG-0041.jpg" alt="">
+                    </div>
+                    <div class="profile_header">
+                        <h2>Miranda Leijen</h2>
+                        <h4>Data Analist</h4>
+                    </div>
+                    <div class="profile_content">
+                        <p>j.c.h.leijen@gmail.com</p>
+                        <p>Amsterdam</p>
+                        <p>Geb.: 27-08-1994</p>
+                    </div>
+                    <div class="profile_links">
+                        <a href="https://www.linkedin.com/in/mirandaleijen/"><span class="op-linkedin"></span></a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="wrapper">
+                <!--Skill Section-->
+                <section class="skills">
+                    <h2 class="sec_title">Vaardigheden</h2>
+                    <div class="progress_wrapper">
+                    <ul class="flex-container">
+                        <li class ="flex-item">
+                            <h4>Programmeren</h4>
+                                <div class="progress_item">
+                                    <h4>SQL</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 70%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_item">
+                                    <h4>SAS EG</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 75%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_item">
+                                    <h4>SPSS</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 70%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_item">
+                                    <h4>R</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 60%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                 <div class="progress_item">
+                                    <h4>HTML / CSS</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 30%;">
+                                        </div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class = "flex-item">
+                             <h4>Dashboarding</h4>
+                                <div class="progress_item">
+                                    <h4>PowerBI</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 75%;">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="progress_item">
+                                    <h4>Google Datastudio</h4>
+                                    <div class="progress_bar">
+                                        <div class="progress" style="width: 50%;">
+                                        </div>
+                                    </div>
+                                </div>
+                        </li>
+                        <li class = "flex-item">
+                            <p class ="space_item">
+                                <h4>Talen</h4>
+                                Nederlands, Engels
+                            </p>
+                            <p class ="space_item">
+                            <h4>Algemeen</h4>
+                            MS Office (Word, Excel & Powerpoint)
+                            </p>
+                        </li>
+                         <li class = "flex-item">
+                            <p class ="space_item">
+                                <h4>Design</h4>
+                                Photoshop, InDesign
+                            </p>
+                            <p class ="space_item">
+                            <h4>Google</h4>
+                            Google Analytics, Google BigQuery
+                            </p>
+                        </li>
+                    </ul>
+                    </div>
+                </section>
+   
+
+                <!--Experience Section-->
+                <section class="experience">
+                    <h2 class="sec_title">Werk Ervaring</h2>
+                    <div class="work_timeline">
+                        <div class="work_item">
+                            <small>2020 - heden</small>
+                            <h4>DATA EXPERT @ NS</h4>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                            proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+                            <p>Utrecht</p>
+                        </div>
+                        <div class="work_item">
+                            <small>2018 - 2020</small>
+                            <h4>DATA ANALIST @ DDB Unlimited (voorheen: Databay)</h4>
+                            <span>McDonald's (Sep 2018 - Mar 2020):
+                                <ul>
+                                    <li><u>Email programma</u>: verantwoordelijk voor het rapporteren van resultaten, uitwerken van strategieën en het coördineren van de integratie met andere kanalen.</li>
+                                    <li><u>Coupon plan</u>: wekelijkse planning van de kortingscoupons in de app, het analyseren van de impact op business, het uitwerken van strategie voor 2019.</li>
+                                    <li><u>Digitale campagnes</u>: verantwoordelijk voor het verzorgen van mid- en eindevaluatie van campagnes, advies geven op basis van data inzichten. </li>
+                                </ul>
+                            </span>
+                            <span>BEN (Sep 2018-Jan 2019):
+                                <ul>
+                                    <li>Verantwoordelijk voor het wekelijks updaten van de resultaten in het dashboard en de communicatie naar het team.</li>
+                                </ul>
+                            </span>
+                            <span>KLM (Jan 2019-Mar 2020):
+                                <ul>
+                                    <li><u>Klanttevredenheid analyses</u>: analyseren van de customer experience over de gehele customer journey, sterktes en zwaktes in kaart brengen.</li>
+                                    <li><u>NPS Driver Model</u>: toepassen van het voorspelmodel om belangrijkste klanttevredenheid drivers in kaart te brengen, voorspellen van impact op business, optimaliseren tool.</li>
+                                    <li><u>Concurrentie analyse</u>: analyseren en rapporteren van benchmarkdata om de positie van KLM te meten t.o.v. concurrenten, kansen en bedreigingen in kaart brengen.</li>
+                                </ul>
+                            </span>
+                            <p>Amstelveen</p>
+                        </div>
+                        <div class="work_item">
+                            <small>2015 - 2018</small>
+                            <h4>ASSISTENT ADVISEUR @ Starters Adviesbureau Vuurkracht</h4>
+                            <span>
+                                <ul>
+                                    <li>Ondersteunende rol bij het testen van de levensvatbaarheid van startende en gevestigde ondernemers.</li>
+                                    <li>Verzorgen van rapportages.</li>
+                                    <li>Marketing training geven aan startende ondernemers.</li>
+                                </ul>
+                            </span>
+                            <p>Haren</p>
+                        </div>
+                    </div>
+                </section>
+
+  
+                <!--Education Section-->
+                <section class="education">
+                    <h2 class="sec_title">Opleidingen</h2>
+                    <div class="education_timeline">
+                        <div class="education_item">
+                            <ul class="timeline">
+                              <!-- Item 1 -->
+                              <li>
+                                <div class="direction-r">
+                                  <div class="flag-wrapper">
+                                    <span class="hexa"></span>
+                                    <span class="flag">
+                                        MSc Marketing Intelligence & Management
+                                        </span>
+                                    <span class="time-wrapper"><span class="time">2015-2018</span></span>
+                                  </div>
+                                  <div class="desc">
+                                    Rijksuniversiteit Groningen
+                                </div>
+                              </li>
+
+                              <!-- Item 2 -->
+                              <li>
+                                <div class="direction-l">
+                                  <div class="flag-wrapper">
+                                    <span class="hexa"></span>
+                                    <span class="flag">Buitenland minor</span>
+                                    <span class="time-wrapper"><span class="time">2014-2015</span></span>
+                                  </div>
+                                  <div class="desc">Newcastle University</div>
+                                </div>
+                              </li>
+
+                              <!-- Item 3 -->
+                              <li>
+                                <div class="direction-r">
+                                  <div class="flag-wrapper">
+                                    <span class="hexa"></span>
+                                    <span class="flag">BSc Bedrijfskunde </span>
+                                    <span class="time-wrapper"><span class="time">2012 – 2015</span></span>
+                                  </div>
+                                  <div class="desc">Rijksuniversiteit Groningen </div>
+                                </div>
+                              </li>
+
+                              <!-- Item 4 -->
+                              <li>
+                                <div class="direction-l">
+                                  <div class="flag-wrapper">
+                                    <span class="hexa"></span>
+                                    <span class="flag">Gymnasium</span>
+                                    <span class="time-wrapper"><span class="time">2006-2012</span></span>
+                                  </div>
+                                  <div class="desc">Ubbo Emmius Lyceum Stadskanaal</div>
+                                </div>
+                              </li>
+                            </ul>
+                    </div>
+                </section>
+
+                <!--Interest Section-->
+                <section class="interest">
+                    <h2 class="sec_title">Nevenactiviteiten</h2>
+                    <div class="interest_timeline">
+                        <div class="interest_item">
+                            <small>2016-2017</small>
+                            <h4>Bestuurslid Marketing Associatie Rijksuniversiteit Groningen</h4>
+                            <span>Functie: PR & Promotie
+                                <ul>
+                                    <li>Verantwoordelijk voor de algemene promotie van de verening</li>
+                                    <li>Offline & online communicatie</li>
+                                    <li>Begeleiden van commissies</li>
+                                </ul>
+                        </div>
+                        <div class="interest_item">
+                            <small>2015-2016</small>
+                            <h4>Commissielid International Marketing Experience</h4>
+                            <span>Marketing Associatie Rijksuniversiteit Groningen
+                                <p>Functie: PR & Promotie </p> 
+                        </div>
+                    </div>
+                </section>
+
+                <!--Portfolio Section  -->
+                <section class="portfolio">
+                    <h2 class="sec_title">Interesses</h2>
+                    <div class="grid col_2">
+                        <a href="#0" class="project_img">
+                            <img src="./asset/Tekenen_new.jpg" alt="">
+                            <div class="project_details">
+                                <h4 class="text">Tekenen</h4>
+                            </div>
+                        </a>
+                        <a href="#0" class="project_img">
+                            <img src="./asset/IMG-0814.jpg" alt="">
+                            <div class="project_details">
+                                <h4 class="text">Koken</h4>
+                            </div>
+                        </a>
+                        <a href="#0" class="project_img">
+                            <img src="./asset/IMG-0306.jpg" alt="">
+                            <div class="project_details">
+                                <h4 class="text">Fotografie</h4>
+                            </div>
+                        </a>
+                        <a href="#0" class="project_img">
+                            <img src="./asset/IMG-Bali.jpg" alt="">
+                            <div class="project_details">
+                                <h4 class="text">Reizen</h4>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <footer>
+                    <p>All rights reserved &copy; 2021</p>
+                </footer>
+            </main>
+        </div>
     </div>
-  </body>
+</body>
 </html>
