@@ -81,7 +81,7 @@ section {
 .container {
   width: 100%;
   max-width: 1180px;
-  padding: 0 1rem;
+/*  padding: 0 1rem;*/
   margin: 60px auto;
 }
 .grid {
