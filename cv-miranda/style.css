@@ -112,9 +112,9 @@ section {
  }
 
 .round_image {
-/*  border-radius: 1rem;*/
 border-radius: 50%;
 }
+
 .profile_header {
   margin: 1rem 0;
 }
